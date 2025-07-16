@@ -19,7 +19,6 @@ public class Main {
     public static void eat(int number){
         int index1 = number;
         int index2 = (number+1)%massive.length;
-        int j = 0;
         while (true) {
             try {
                 waiter.acquire();
